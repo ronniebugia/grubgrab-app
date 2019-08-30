@@ -1,0 +1,106 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+textarea{
+    margin: 0 !important;
+}
+
+.logo{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-meal-option{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 20%;
+    margin: 10px;
+    display: inline-block;
+    white-space: normal;
+    padding: 0;
+}
+
+
+.btn-meal-option:hover{
+    opacity: 0.5;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.btn-meal-option img{
+    width: 100%;
+    height: 175px;
+}
+
+.div-meals-per-week{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.card{
+    padding: 24px 64px;
+}
+
+.card-content{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.selected{
+    background-color: #EC2B40;
+    color: white;
+}
+
+.div-checkbox{
+    display: inline-block;
+    margin: 10px;
+}
+
+.div-checkbox *{
+    display: inline-block;
+}
+
+.div-map{
+    padding: 32px;
+    text-align: center;
+}
+
+.div-map input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    margin: 24px;
+}
+
+.img-meal-selection{
+    width: 400px;
+
+}
+
+.meal-selection-description{
+    padding: 12px;
+}
+
+.btn-default{
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
